@@ -1,0 +1,21 @@
+{
+  "name": "jwsp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "play": "pnpm -C play dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "vue": "^3.2.41"
+  },
+  "dependencies": {
+    "@lego-service-packages/components": "workspace:^1.0.0",
+    "@lego-service-packages/theme-chalk": "workspace:^1.0.0",
+    "@lego-service-packages/utils": "workspace:^1.0.0"
+  }
+}
