@@ -4,12 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "play": "pnpm -C play dev"
+    "play:dev": "pnpm -C play dev",
+    "docs:dev": "pnpm -C docs dev",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
+    "@vue/eslint-config-typescript": "^11.0.2",
+    "eslint": "^8.26.0",
+    "eslint-plugin-vue": "^9.7.0",
     "typescript": "^4.8.4",
     "vue": "^3.2.41"
   },

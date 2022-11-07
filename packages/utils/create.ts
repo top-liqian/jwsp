@@ -43,6 +43,8 @@ const prefixedName: string = `gs-${name}`
 return createBEM(prefixedName)
 }
 const bem = createNamespace('button'); 
+
+// 测试用例
 console.log(bem.b()) // gs-button
 console.log(bem.b('box')) // gs-button-box
 console.log(bem.e('element')); // gs-button__element
